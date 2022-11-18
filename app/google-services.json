@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "597609093960",
+    "project_id": "challengechaptertuju",
+    "storage_bucket": "challengechaptertuju.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597609093960:android:fa1d1d38e516f3eccf317d",
+        "android_client_info": {
+          "package_name": "com.rifqipadisiliwangi.challengechaptertuju"
+
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597609093960-sbtnhdh95eup0d8ujftq51m5p60fcjqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0WC_bIdIDDWxSjLsEPujWZ-lGOe9R9B4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597609093960-sbtnhdh95eup0d8ujftq51m5p60fcjqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ChallengChapterTuju</string>
+    <string name="detail_movie">Detail Movie</string>
+    <string name="judulFilm">Judul Film</string>
+    <string name="movieDate">Movie Date</string>
+    <string name="MovieLanguge">Movie Language</string>
+    <string name="rating">Rating</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="film_favorite">Film Favorite</string>
+    <string name="welcome">Welcome</string>
+    <string name="username">Username</string>
+    <string name="home">Home</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="profile">Profile</string>
+    <string name="register">Register</string>
+    <string name="fullname">Full Name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="movie_nih">Movie Nih.</string>
+    <string name="loading">Loading..</string>
+
+    <string name="bahasa">Bahasa</string>
+    <string name="client_id" translatable="false">597609093960-sbtnhdh95eup0d8ujftq51m5p60fcjqa.apps.googleusercontent.com</string>
+    <string name="tambah_film_fav">Berhasil menambahkan ke favorit !</string>
+    <string name="hapus_film_fav">Berhasil menghapus film !</string>
+    <string name="no_data">Tidak ada data untuk ditampilkan !</string>
+    <string name="logout">Logout</string>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/lyUserHome"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textSize="25sp"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_medium"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivFav"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="20dp"
+        android:layout_toStartOf="@+id/ivPerson"
+        android:src="@drawable/ic_baseline_favorite_24" />
+
+    <ImageView
+        android:id="@+id/ivPerson"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="20dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_baseline_person_24"/>
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/dark_late_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lyUserHome"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_below="@+id/tvHome"/>
+
+    <ProgressBar
+        android:id="@+id/homeProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="297dp"
+        android:background="#28858585" />
+
+</RelativeLayout>
